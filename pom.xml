@@ -43,7 +43,7 @@
     <dependency>
       <artifactId>jackson-databind-nullable</artifactId>
       <groupId>org.openapitools</groupId>
-      <version>0.2.4</version>
+      <version>0.2.6</version>
     </dependency>
     <dependency>
       <artifactId>jsr305</artifactId>
