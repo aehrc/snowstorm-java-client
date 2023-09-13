@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>snowstorm-java-client</artifactId>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>openapi-generator-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <configuration>
+              <apiPackage>au.csiro.snowstorm-client.api</apiPackage>
+              <configOptions>
+                <sourceFolder>src/gen/java/main</sourceFolder>
+              </configOptions>
+              <generatorName>java</generatorName>
+              <groupId>${project.groupId}</groupId>
+              <groupId>${project.artifactId}-generated</groupId>
+              <inputSpec>${project.basedir}/src/main/resources/snowstorm.json</inputSpec>
+              <invokerPackage>au.csiro.snowstorm-client.invoker</invokerPackage>
+              <library>webclient</library>
+              <modelNamePrefix>Snowstorm</modelNamePrefix>
+              <modelPackage>au.csiro.snowstorm-client.model</modelPackage>
+              <packageName>au.csiro.snowstorm-client</packageName>
+            </configuration>
+            <goals>
+              <goal>generate</goal>
+            </goals>
+          </execution>
+        </executions>
+        <groupId>org.openapitools</groupId>
+        <version>6.3.0</version>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <dependency>
+      <artifactId>spring-boot-starter-webflux</artifactId>
+      <groupId>org.springframework.boot</groupId>
+      <version>3.1.3</version>
+    </dependency>
+    <dependency>
+      <artifactId>jackson-databind-nullable</artifactId>
+      <groupId>org.openapitools</groupId>
+      <version>0.2.4</version>
+    </dependency>
+    <dependency>
+      <artifactId>jsr305</artifactId>
+      <groupId>com.google.code.findbugs</groupId>
+      <version>3.0.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>javax.annotation-api</artifactId>
+      <groupId>javax.annotation</groupId>
+      <scope>compile</scope>
+      <version>1.3.2</version>
+    </dependency>
+    <dependency>
+      <artifactId>junit</artifactId>
+      <groupId>junit</groupId>
+      <version>4.13.2</version>
+    </dependency>
+  </dependencies>
+
+  <description>Client for Snowstorm</description>
+  <groupId>au.csiro</groupId>
+  <modelVersion>4.0.0</modelVersion>
+  <name>snomio api</name>
+  <properties>
+    <java.version>17</java.version>
+    <maven.compiler.source>20</maven.compiler.source>
+    <maven.compiler.target>20</maven.compiler.target>
+  </properties>
+  <version>8.1.0</version>
+</project>
