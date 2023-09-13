@@ -62,15 +62,59 @@
       <version>4.13.2</version>
     </dependency>
   </dependencies>
-
   <description>Client for Snowstorm</description>
+  <distributionManagement>
+    <repository>
+      <id>${deployment.repo.id}</id>
+      <layout>default</layout>
+      <name>Maven Release Feed</name>
+      <uniqueVersion>true</uniqueVersion>
+      <url>${deployment.repo.url}</url>
+    </repository>
+    <snapshotRepository>
+      <id>${deployment.repo.id}</id>
+      <layout>default</layout>
+      <name>Maven Snapshot Release Feed</name>
+      <uniqueVersion>true</uniqueVersion>
+      <url>${deployment.repo.url}</url>
+    </snapshotRepository>
+  </distributionManagement>
   <groupId>au.csiro</groupId>
+
   <modelVersion>4.0.0</modelVersion>
   <name>snomio api</name>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>${deployment.repo.id}</id>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <url>${deployment.repo.url}</url>
+    </pluginRepository>
+  </pluginRepositories>
   <properties>
+    <deployment.repo.id>ontoserver</deployment.repo.id>
+    <deployment.repo.url>
+      https://pkgs.dev.azure.com/aehrc/ontoserver/_packaging/ontoserver/maven/v1
+    </deployment.repo.url>
     <java.version>17</java.version>
     <maven.compiler.source>20</maven.compiler.source>
     <maven.compiler.target>20</maven.compiler.target>
   </properties>
+  <repositories>
+    <repository>
+      <id>${deployment.repo.id}</id>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
+      <url>${deployment.repo.url}</url>
+    </repository>
+  </repositories>
   <version>8.1.0</version>
 </project>
