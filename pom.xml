@@ -96,9 +96,9 @@
     </pluginRepository>
   </pluginRepositories>
   <properties>
-    <deployment.repo.id>ontoserver</deployment.repo.id>
+    <deployment.repo.id>snomio</deployment.repo.id>
     <deployment.repo.url>
-      https://pkgs.dev.azure.com/aehrc/ontoserver/_packaging/ontoserver/maven/v1
+      https://pkgs.dev.azure.com/OD225632-NCTS-ContentAndTooling/Snomio/_packaging/snomio/maven/v1
     </deployment.repo.url>
     <java.version>17</java.version>
     <maven.compiler.source>20</maven.compiler.source>
