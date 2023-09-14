@@ -30,7 +30,7 @@
           </execution>
         </executions>
         <groupId>org.openapitools</groupId>
-        <version>6.3.0</version>
+        <version>7.0.0</version>
       </plugin>
     </plugins>
   </build>
