@@ -12,7 +12,9 @@
             <configuration>
               <apiPackage>au.csiro.snowstorm-client.api</apiPackage>
               <configOptions>
-                <sourceFolder>src/gen/java/main</sourceFolder>
+                <bigDecimalAsString>true</bigDecimalAsString>
+                <containerDefaultToNull>false</containerDefaultToNull>
+                <useSpringBoot3>true</useSpringBoot3>
               </configOptions>
               <generatorName>java</generatorName>
               <groupId>${project.groupId}</groupId>
@@ -23,6 +25,7 @@
               <modelNamePrefix>Snowstorm</modelNamePrefix>
               <modelPackage>au.csiro.snowstorm-client.model</modelPackage>
               <packageName>au.csiro.snowstorm-client</packageName>
+              <configHelp/>
             </configuration>
             <goals>
               <goal>generate</goal>
@@ -30,7 +33,7 @@
           </execution>
         </executions>
         <groupId>org.openapitools</groupId>
-        <version>7.0.0</version>
+        <version>7.0.1</version>
       </plugin>
     </plugins>
   </build>
