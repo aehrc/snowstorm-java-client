@@ -926,7 +926,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -956,7 +955,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -2264,7 +2262,6 @@
               "schema": {
                 "uniqueItems": true,
                 "type": "array",
-                "default": [],
                 "description": "The concepts to validate",
                 "items": {
                   "$ref": "#/components/schemas/Concept"
@@ -2924,7 +2921,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -3247,7 +3243,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -3745,7 +3740,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -3768,7 +3762,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -3961,7 +3954,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -3993,7 +3985,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -4008,7 +3999,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -4022,7 +4012,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -4037,7 +4026,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -4052,7 +4040,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -4107,7 +4094,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -5308,7 +5294,6 @@
                 "schema": {
                   "uniqueItems": true,
                   "type": "array",
-                  "default": [],
                   "items": {
                     "type": "string"
                   }
@@ -5423,7 +5408,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -5436,7 +5420,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -5551,7 +5534,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -5565,7 +5547,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -5651,7 +5632,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -5733,7 +5713,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -6130,7 +6109,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -6260,7 +6238,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -6366,7 +6343,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -6380,7 +6356,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -6394,7 +6369,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -6417,7 +6391,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -6430,7 +6403,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -6444,7 +6416,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -6458,7 +6429,6 @@
             "schema": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "integer",
                 "format": "int64"
@@ -7190,7 +7160,8 @@
       "CodeSystem": {
         "required": [
           "branchPath",
-          "shortName"
+          "shortName",
+          "userRoles"
         ],
         "type": "object",
         "properties": {
@@ -7252,7 +7223,6 @@
           "userRoles": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
@@ -7382,6 +7352,10 @@
         }
       },
       "BranchPojo": {
+        "required": [
+          "userRoles",
+          "globalUserRoles"
+        ],
         "type": "object",
         "properties": {
           "path": {
@@ -7429,7 +7403,6 @@
           "userRoles": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
@@ -7437,7 +7410,6 @@
           "globalUserRoles": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
@@ -7460,7 +7432,6 @@
             "additionalProperties": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -7469,12 +7440,14 @@
         }
       },
       "UserGroupsPojo": {
+        "required": [
+          "userGroups"
+        ],
         "type": "object",
         "properties": {
           "userGroups": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
@@ -7552,7 +7525,6 @@
             "additionalProperties": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -7629,6 +7601,15 @@
         }
       },
       "ConceptSearchRequest": {
+        "required": [
+          "descriptionType",
+          "language",
+          "preferredIn",
+          "acceptableIn",
+          "preferredOrAcceptableIn",
+          "module",
+          "conceptIds"
+        ],
         "type": "object",
         "properties": {
           "termFilter": {
@@ -7643,7 +7624,6 @@
           "descriptionType": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "integer",
               "format": "int64"
@@ -7652,7 +7632,6 @@
           "language": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
@@ -7660,7 +7639,6 @@
           "preferredIn": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "integer",
               "format": "int64"
@@ -7669,7 +7647,6 @@
           "acceptableIn": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "integer",
               "format": "int64"
@@ -7678,7 +7655,6 @@
           "preferredOrAcceptableIn": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "integer",
               "format": "int64"
@@ -7690,7 +7666,6 @@
           "module": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "integer",
               "format": "int64"
@@ -7709,7 +7684,6 @@
           "conceptIds": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
@@ -7814,6 +7788,9 @@
         }
       },
       "Axiom": {
+        "required": [
+          "relationships"
+        ],
         "type": "object",
         "properties": {
           "axiomId": {
@@ -7834,7 +7811,6 @@
           "relationships": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "$ref": "#/components/schemas/Relationship"
             }
@@ -7887,7 +7863,12 @@
       },
       "Concept": {
         "required": [
-          "definitionStatusId"
+          "definitionStatusId",
+          "descriptions",
+          "classAxioms",
+          "gciAxioms",
+          "relationships",
+          "allOwlAxiomMembers"
         ],
         "type": "object",
         "properties": {
@@ -7927,7 +7908,6 @@
             "additionalProperties": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -7949,7 +7929,6 @@
           "descriptions": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "$ref": "#/components/schemas/Description"
             }
@@ -7957,7 +7936,6 @@
           "classAxioms": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "$ref": "#/components/schemas/Axiom"
             }
@@ -7965,7 +7943,6 @@
           "gciAxioms": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "$ref": "#/components/schemas/Axiom"
             }
@@ -7973,7 +7950,6 @@
           "relationships": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "$ref": "#/components/schemas/Relationship"
             }
@@ -8022,7 +7998,6 @@
           "allOwlAxiomMembers": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "$ref": "#/components/schemas/ReferenceSetMember"
             }
@@ -8172,7 +8147,6 @@
             "additionalProperties": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -8590,7 +8564,9 @@
       "ExportRequestView": {
         "required": [
           "branchPath",
-          "type"
+          "type",
+          "moduleIds",
+          "refsetIds"
         ],
         "type": "object",
         "properties": {
@@ -8644,7 +8620,6 @@
           "moduleIds": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
@@ -8652,7 +8627,6 @@
           "refsetIds": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "description": "If refsetIds are included, this indicates that the export will be a refset-only export.",
             "items": {
               "type": "string",
@@ -8727,6 +8701,12 @@
         }
       },
       "ConceptView": {
+        "required": [
+          "descriptions",
+          "classAxioms",
+          "gciAxioms",
+          "relationships"
+        ],
         "type": "object",
         "properties": {
           "validationResults": {
@@ -8739,7 +8719,6 @@
           "descriptions": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "$ref": "#/components/schemas/Description"
             }
@@ -8747,7 +8726,6 @@
           "relationships": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "$ref": "#/components/schemas/Relationship"
             }
@@ -8770,7 +8748,6 @@
           "classAxioms": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "$ref": "#/components/schemas/Axiom"
             }
@@ -8778,7 +8755,6 @@
           "gciAxioms": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "$ref": "#/components/schemas/Axiom"
             }
@@ -8795,6 +8771,9 @@
         "type": "object"
       },
       "ConceptBulkLoadRequest_Component": {
+        "required": [
+          "descriptionIds"
+        ],
         "type": "object",
         "properties": {
           "conceptIds": {
@@ -8807,7 +8786,6 @@
           "descriptionIds": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
@@ -9069,12 +9047,14 @@
         }
       },
       "ConceptDescriptionsResult_Component": {
+        "required": [
+          "conceptDescriptions"
+        ],
         "type": "object",
         "properties": {
           "conceptDescriptions": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "$ref": "#/components/schemas/Description"
             }
@@ -9502,7 +9482,8 @@
       },
       "BranchReview": {
         "required": [
-          "id"
+          "id",
+          "changedConcepts"
         ],
         "type": "object",
         "properties": {
@@ -9531,7 +9512,6 @@
           "changedConcepts": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "integer",
               "format": "int64"
@@ -9559,12 +9539,14 @@
         }
       },
       "BranchReviewConceptChanges": {
+        "required": [
+          "changedConcepts"
+        ],
         "type": "object",
         "properties": {
           "changedConcepts": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "integer",
               "format": "int64"
@@ -9789,6 +9771,9 @@
         }
       },
       "ImportJob": {
+        "required": [
+          "moduleIds"
+        ],
         "type": "object",
         "properties": {
           "status": {
@@ -9816,7 +9801,6 @@
           "moduleIds": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
@@ -9837,7 +9821,9 @@
       "ExportConfiguration": {
         "required": [
           "branchPath",
-          "type"
+          "type",
+          "moduleIds",
+          "refsetIds"
         ],
         "type": "object",
         "properties": {
@@ -9889,7 +9875,6 @@
           "moduleIds": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
@@ -9897,7 +9882,6 @@
           "refsetIds": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "description": "If refsetIds are included, this indicates that the export will be a refset-only export.",
             "items": {
               "type": "string",
@@ -10161,6 +10145,9 @@
         }
       },
       "ConceptHistoryItem": {
+        "required": [
+          "componentTypes"
+        ],
         "type": "object",
         "properties": {
           "effectiveTime": {
@@ -10172,7 +10159,6 @@
           "componentTypes": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string",
               "enum": [
@@ -10271,7 +10257,6 @@
             "additionalProperties": {
               "uniqueItems": true,
               "type": "array",
-              "default": [],
               "items": {
                 "type": "string"
               }
@@ -10328,6 +10313,9 @@
         }
       },
       "PermissionRecord_Component": {
+        "required": [
+          "userGroups"
+        ],
         "type": "object",
         "properties": {
           "role": {
@@ -10342,7 +10330,6 @@
           "userGroups": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
@@ -10350,12 +10337,14 @@
         }
       },
       "RelationshipIdPojo": {
+        "required": [
+          "relationshipIds"
+        ],
         "type": "object",
         "properties": {
           "relationshipIds": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
@@ -10363,12 +10352,14 @@
         }
       },
       "MemberIdsPojo_Component": {
+        "required": [
+          "memberIds"
+        ],
         "type": "object",
         "properties": {
           "memberIds": {
             "uniqueItems": true,
             "type": "array",
-            "default": [],
             "items": {
               "type": "string"
             }
