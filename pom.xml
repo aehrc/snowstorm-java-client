@@ -15,7 +15,6 @@
                 <bigDecimalAsString>true</bigDecimalAsString>
                 <containerDefaultToNull>false</containerDefaultToNull>
                 <useSpringBoot3>true</useSpringBoot3>
-                <interfaceOnly>true</interfaceOnly>
                 <serializableModel>true</serializableModel>
               </configOptions>
               <generatorName>java</generatorName>
