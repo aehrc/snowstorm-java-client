@@ -47,6 +47,7 @@
         <configuration>
           <gitFlowConfig>
             <developmentBranch>main</developmentBranch>
+            <productionBranch>main</productionBranch>
           </gitFlowConfig>
         </configuration>
         <groupId>com.amashchenko.maven.plugin</groupId>
@@ -136,5 +137,5 @@
       <url>${deployment.repo.url}</url>
     </repository>
   </repositories>
-  <version>8.1.1-SNAPSHOT</version>
+  <version>8.1.1</version>
 </project>
