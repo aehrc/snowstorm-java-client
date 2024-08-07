@@ -47,6 +47,7 @@
         <configuration>
           <gitFlowConfig>
             <developmentBranch>main</developmentBranch>
+            <productionBranch>main</productionBranch>
           </gitFlowConfig>
         </configuration>
         <groupId>com.amashchenko.maven.plugin</groupId>
