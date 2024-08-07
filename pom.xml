@@ -42,6 +42,16 @@
         <groupId>org.openapitools</groupId>
         <version>7.0.1</version>
       </plugin>
+      <plugin>
+        <artifactId>gitflow-maven-plugin</artifactId>
+        <configuration>
+          <gitFlowConfig>
+            <developmentBranch>main</developmentBranch>
+          </gitFlowConfig>
+        </configuration>
+        <groupId>com.amashchenko.maven.plugin</groupId>
+        <version>1.21.0</version>
+      </plugin>
     </plugins>
   </build>
   <dependencies>
