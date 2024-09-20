@@ -41,4 +41,4 @@ Versioning is based on the Snowstorm release version.
 If you are interested in contributing or would like a change, please check out the [contributing guide](CONTRIBUTING.md).
 
 ## Licensing
-Distributed under the Apache 2.0 License. See [LICENSE.txt](LICENSE.txt) for more details.
+Distributed under the Apache 2.0 License. See [LICENSE](LICENSE) for more details.
