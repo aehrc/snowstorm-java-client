@@ -14,7 +14,7 @@ mvn clean install
 
 ### Usage
 To use the library include it in your Maven dependencies
-```
+```xml
     <dependency>
       <artifactId>snowstorm-java-client</artifactId>
       <groupId>au.csiro</groupId>
@@ -22,7 +22,7 @@ To use the library include it in your Maven dependencies
     </dependency>
 ```
 Then create a client and use it in the specific clients that divide up the Snowstorm API
-```
+```java
     @Autowired
     WebClient webclient;
     ...
