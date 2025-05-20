@@ -185,5 +185,5 @@
       <url>${deployment.repo.url}</url>
     </repository>
   </repositories>
-  <version>8.1.2-SNAPSHOT</version>
+  <version>8.1.2</version>
 </project>
