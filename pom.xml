@@ -22,6 +22,7 @@
                 <containerDefaultToNull>false</containerDefaultToNull>
                 <useSpringBoot3>true</useSpringBoot3>
                 <serializableModel>true</serializableModel>
+                <additionalModelTypeAnnotations><![CDATA[@JsonInclude(JsonInclude.Include.NON_NULL)]]></additionalModelTypeAnnotations>
               </configOptions>
               <generatorName>java</generatorName>
               <groupId>${project.groupId}</groupId>
