@@ -33,7 +33,6 @@
               <modelPackage>au.csiro.snowstorm-client.model</modelPackage>
               <packageName>au.csiro.snowstorm-client</packageName>
               <configHelp/>
-              <templateDirectory>${project.basedir}/src/main/resources/templates</templateDirectory>
             </configuration>
             <goals>
               <goal>generate</goal>
