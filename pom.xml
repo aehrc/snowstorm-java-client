@@ -41,7 +41,7 @@
           </execution>
         </executions>
         <groupId>org.openapitools</groupId>
-        <version>7.8.0</version>
+        <version>7.10.0</version>
       </plugin>
       <plugin>
         <artifactId>gitflow-maven-plugin</artifactId>
